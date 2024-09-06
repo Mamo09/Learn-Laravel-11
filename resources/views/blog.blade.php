@@ -18,7 +18,7 @@
 
     <h1>Halaman Blog</h1>
 
-    <h2>Manfaat Olahraga Pagi untuk Kesehatan</h2>
+    <h3>Manfaat Olahraga Pagi untuk Kesehatan</h3>
     <p>Olahraga pagi memberikan banyak manfaat untuk kesehatan fisik dan mental. Saat tubuh aktif di pagi hari,
         metabolisme menjadi lebih cepat dan tubuh membakar kalori dengan lebih efisien sepanjang hari. Selain itu,
         olahraga pagi dapat meningkatkan suasana hati karena produksi endorfin yang membuat tubuh merasa lebih bahagia
@@ -27,7 +27,7 @@
         dengan aktivitas fisik terbukti mengurangi tingkat stres dan kecemasan. Dengan suasana hati yang lebih baik,
         seseorang bisa lebih fokus dan produktif dalam menjalani aktivitas harian.</p>
 
-    <h2>Pentingnya Pemrograman dalam Era Digital</h2>
+    <h3>Pentingnya Pemrograman dalam Era Digital</h3>
     <p>Pemrograman kini menjadi keterampilan yang sangat penting di era digital. Dengan kemampuan pemrograman, seseorang
         bisa menciptakan aplikasi, website, atau software yang memudahkan kehidupan sehari-hari. Selain itu, banyak
         industri yang kini sangat bergantung pada teknologi dan memerlukan programmer untuk mengembangkan solusi
