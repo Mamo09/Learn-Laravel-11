@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot:title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>blog</title>
-    <link rel="stylesheet" href="css/style.css">
+    <h1 class="text-xl">Halaman Blog</h1>
 
-</head>
-
-<body>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
-
-    <h1>Halaman Blog</h1>
-
-    <h3>Manfaat Olahraga Pagi untuk Kesehatan</h3>
-    <p>Olahraga pagi memberikan banyak manfaat untuk kesehatan fisik dan mental. Saat tubuh aktif di pagi hari,
+    <h3 class="text-xl">Manfaat Olahraga Pagi untuk Kesehatan</h3>
+    <p class="text-s">Olahraga pagi memberikan banyak manfaat untuk kesehatan fisik dan mental. Saat tubuh aktif di pagi hari,
         metabolisme menjadi lebih cepat dan tubuh membakar kalori dengan lebih efisien sepanjang hari. Selain itu,
         olahraga pagi dapat meningkatkan suasana hati karena produksi endorfin yang membuat tubuh merasa lebih bahagia
         dan berenergi.</p>
@@ -37,6 +22,4 @@
         Menguasai pemrograman tidak hanya menawarkan keamanan karir, tetapi juga memberikan kemampuan untuk berinovasi
         di bidang teknologi.</p>
 
-</body>
-
-</html>
+</x-layout>
