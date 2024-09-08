@@ -15,6 +15,7 @@ Route::get('/posts', function () {
     return view('posts', ['title'=>'Blog', 'posts'=>[
         [
             'id' => 1,
+            'slug' => 'judul-artikel-1',
             'title' => 'Manfaat Olahraga Pagi untuk Kesehatan',
             'author' => 'Futma Nurhidayat',
             'body' => 'Olahraga pagi memberikan banyak manfaat untuk kesehatan fisik dan mental. Saat tubuh aktif di pagi hari, metabolisme menjadi lebih cepat dan tubuh membakar kalori dengan lebih efisien sepanjang hari. Selain itu, olahraga pagi dapat meningkatkan suasana hati karena produksi endorfin yang membuat tubuh merasa lebih bahagia dan berenergi.
@@ -23,6 +24,7 @@ Route::get('/posts', function () {
 
         [
             'id' => 2,
+            'slug' => 'judul-artikel-2',
             'title' => 'Pentingnya Pemrograman dalam Era Digital',
             'author' => 'Futma Nurhidayat',
             'body' => '<p>Pemrograman kini menjadi keterampilan yang sangat penting di era digital. Dengan kemampuan pemrograman, seseorang bisa menciptakan aplikasi, website, atau software yang memudahkan kehidupan sehari-hari. Selain itu, banyak industri yang kini sangat bergantung pada teknologi dan memerlukan programmer untuk mengembangkan solusi digital.
@@ -33,10 +35,11 @@ Route::get('/posts', function () {
 });
 
 
-Route::get('/posts/{id}', function($id) {
+Route::get('/posts/{slug}', function($slug) {
     $posts= [
         [
             'id' => 1,
+            'slug' => 'judul-artikel-1',
             'title' => 'Manfaat Olahraga Pagi untuk Kesehatan',
             'author' => 'Futma Nurhidayat',
             'body' => 'Olahraga pagi memberikan banyak manfaat untuk kesehatan fisik dan mental. Saat tubuh aktif di pagi hari, metabolisme menjadi lebih cepat dan tubuh membakar kalori dengan lebih efisien sepanjang hari. Selain itu, olahraga pagi dapat meningkatkan suasana hati karena produksi endorfin yang membuat tubuh merasa lebih bahagia dan berenergi.
@@ -45,6 +48,7 @@ Route::get('/posts/{id}', function($id) {
 
         [
             'id' => 2,
+            'slug' => 'judul-artikel-2',
             'title' => 'Pentingnya Pemrograman dalam Era Digital',
             'author' => 'Futma Nurhidayat',
             'body' => 'Pemrograman kini menjadi keterampilan yang sangat penting di era digital. Dengan kemampuan pemrograman, seseorang bisa menciptakan aplikasi, website, atau software yang memudahkan kehidupan sehari-hari. Selain itu, banyak industri yang kini sangat bergantung pada teknologi dan memerlukan programmer untuk mengembangkan solusi digital.
@@ -52,8 +56,8 @@ Route::get('/posts/{id}', function($id) {
         ]
     ];
 
-    $post = Arr::first($posts, function ($post) use ($id) {
-        return $post['id'] == $id;
+    $post = Arr::first($posts, function ($post) use ($slug) {
+        return $post['slug'] == $slug;
     });
 
     return view('post', ['title' =>'Single Post', 'post' =>$post]);
