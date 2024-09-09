@@ -24,7 +24,7 @@ class Post
                 'slug' => 'judul-artikel-2',
                 'title' => 'Pentingnya Pemrograman dalam Era Digital',
                 'author' => 'Futma Nurhidayat',
-                'body' => '<p>Pemrograman kini menjadi keterampilan yang sangat penting di era digital. Dengan kemampuan pemrograman, seseorang bisa menciptakan aplikasi, website, atau software yang memudahkan kehidupan sehari-hari. Selain itu, banyak industri yang kini sangat bergantung pada teknologi dan memerlukan programmer untuk mengembangkan solusi digital.
+                'body' => 'Pemrograman kini menjadi keterampilan yang sangat penting di era digital. Dengan kemampuan pemrograman, seseorang bisa menciptakan aplikasi, website, atau software yang memudahkan kehidupan sehari-hari. Selain itu, banyak industri yang kini sangat bergantung pada teknologi dan memerlukan programmer untuk mengembangkan solusi digital.
                 Di dunia yang terus berkembang ini, keterampilan dalam pemrograman juga membuka banyak peluang karir. Profesi seperti web developer, data scientist, hingga software engineer kini menjadi pekerjaan yang sangat dicari. Menguasai pemrograman tidak hanya menawarkan keamanan karir, tetapi juga memberikan kemampuan untuk berinovasi di bidang teknologi.'
             ]
     
